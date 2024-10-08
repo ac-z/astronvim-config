@@ -18,7 +18,11 @@ return {
         buffer_visible_fg = "#f2a400",
         buffer_visible_close_fg = "#FFFFFF",
         buffer_fg = "#606060",
-        buffer_close_fg = "#000000"
+        buffer_close_fg = "#000000",
+
+        git_added = get_hlgroup("DiffAdd").fg,
+        git_changed = get_hlgroup("DiffChange").fg,
+        git_removed = get_hlgroup("DiffDelete").fg,
       }
     }
   },
