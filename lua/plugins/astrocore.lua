@@ -25,6 +25,7 @@ return {
           number = true,
           signcolumn = "auto",
           wrap = false,
+          fillchars = "",
         },
         g = { -- vim.g.<key>
           -- configure global vim variables (vim.g)
